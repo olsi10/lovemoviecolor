@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    margin: 100px 83px 0px 100px;
+}
+
+.top img:nth-child(1) {
+    width: 815px;
+    height: 282px;
+    margin-right: 100px;
+}
+
+.top img:nth-child(2) {
+    width: 241px;
+    height: 159px;
+    margin-top: 10px;
+    margin-right: 106px;
+}
+
+.two-img img:nth-child(1) {
+    width: 415px;
+    height: 61px;
+    margin-bottom: 40px;
+}
+
+.two-img img:nth-child(2) {
+    width: 240px;
+    height: 60px;
+}
+
+.bottom {
+    width: 100%;
+    margin: 307px 40px 20px 110px;
+    display: flex;
+}
+
+.choose-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.choose-div img:nth-child(1) {
+    width: 295px;
+    height: 50px;
+}
+
+.choose-div img:nth-child(2) {
+    width: 423px;
+    height: 40px;
+}
+
+.img-abs {
+    position: relative;
+}
+
+.img-abs:hover {
+    cursor: pointer;
+}
+
+.img-abs img:nth-child(1) {
+    position: absolute;
+    top: -10px;
+    left: 208px;
+    width: 175px;
+    height: 50px;
+    z-index: 99;
+}
+
+.img-abs img:nth-child(2) {
+    position: absolute;
+    top: -25px;
+    left: 180px;
+    width: 234px;
+    height: 82px;
+}
+
+.choose-color {
+    margin-left: 134px;
+}
+
+.img-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img-div img{
+    width: 281px;
+    height: 181px;
+}
+
+.div {
+    position: relative;
+    width: 281px;
+}
+
+.b {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    opacity: 0;
+}
+
+.div:hover .b {
+    cursor: pointer;
+    display: block;
+    animation: visible 3s;
+}
+
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.div:hover .c {
+    animation: c 3s;
+}
+.div:hover .d {
+    animation: d 3s;
+}
+.div:hover .e {
+    animation: e 3s;
+}
+.div:hover .f {
+    animation: f 3s;
+}
+
+@keyframes c {
+    0% {
+        filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg) brightness(112%) contrast(95%);
+    }
+
+    5% {
+        filter: invert(50%) sepia(87%) saturate(3383%) hue-rotate(304deg) brightness(101%) contrast(101%);
+    }
+    100% {
+        filter: invert(50%) sepia(87%) saturate(3383%) hue-rotate(304deg) brightness(101%) contrast(101%);
+    }
+    
+}
+@keyframes d {
+    0% {
+        filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg) brightness(112%) contrast(95%);
+    }
+
+    5% {
+        filter: invert(56%) sepia(28%) saturate(5902%) hue-rotate(328deg) brightness(109%) contrast(102%);
+    }
+    100% {
+        filter: invert(56%) sepia(28%) saturate(5902%) hue-rotate(328deg) brightness(109%) contrast(102%);
+    }
+    
+}
+@keyframes e {
+    0% {
+        filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg) brightness(112%) contrast(95%);
+    }
+
+    5% {
+        filter: invert(89%) sepia(15%) saturate(7224%) hue-rotate(359deg) brightness(104%) contrast(102%);
+
+    }
+    100% {
+        filter: invert(89%) sepia(15%) saturate(7224%) hue-rotate(359deg) brightness(104%) contrast(102%);
+
+    }
+    
+}
+@keyframes f {
+    0% {
+        filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg) brightness(112%) contrast(95%);
+    }
+
+    5% {
+        filter: invert(12%) sepia(98%) saturate(3518%) hue-rotate(225deg) brightness(106%) contrast(90%);
+    }
+    100% {
+        filter: invert(12%) sepia(98%) saturate(3518%) hue-rotate(225deg) brightness(106%) contrast(90%);
+    }
+    
+}
+
+.img-div .div:nth-child(1) img:nth-child(3) {
+    width: 128px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.img-div .div:nth-child(2) img:nth-child(3) {
+    width: 119px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.img-div .div:nth-child(3) img:nth-child(3) {
+    width: 169px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.img-div .div:nth-child(4) img:nth-child(3) {
+    width: 132px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 10px;
+}

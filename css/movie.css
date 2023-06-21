@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+}
+
+.movie {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 160px;
+    margin-top: 126px;
+    margin-bottom: 50px;
+}
+
+.m-img {
+    width: 1920px;
+    height: 370px;
+}
+
+.kor-title, .eng-title, .pub-genre {
+    margin-left: 130px;
+}
+
+.kor-title {
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.eng-title {
+    margin-bottom: 25px;
+}

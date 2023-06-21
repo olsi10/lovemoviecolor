@@ -1,0 +1,6 @@
+.comment:hover {
+    background-color: #ff5959 !important;
+    color: white;
+    font-family: "SDGothic", serif;
+    cursor: pointer;
+}

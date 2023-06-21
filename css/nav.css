@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+}
+
+.nav {
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.left {
+    display: flex;
+    margin-left: 150px;
+}
+
+.left img {
+    margin-right: 70px;
+}
+
+.right {
+    margin-bottom: 4px;
+    margin-right: 150px;
+}
+
+.right img {
+    margin-left: 90px;
+}
+
+.left img:nth-child(1) {
+    /* width: 70px; */
+    height: 17px;
+}
+
+.left img:nth-child(2) {
+    width: 16px;
+    height: 17px;
+}
+
+.left img:nth-child(3) {
+    width: 33px;
+    height: 17px;
+}
+
+.left img:nth-child(4) {
+    width: 32px;
+    height: 17px;
+}
+
+body > div.nav > div.left > img {
+    width: 32px;
+    height: 17px;
+}
+
+/* .right img:nth-child(1) {
+    width: 203px;
+    height: 14px;
+} */
+
+.right img:nth-child(2) {
+    width: 182px;
+    height: 14px;
+}
+
+.nav-color, .nav-home, .nav-movie, .nav-st {
+    position: relative;
+}
+
+.n2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.nav-color:hover .n2 {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.nav-movie:hover .n2 {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.nav-home:hover .n2 {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.nav-st:hover .n2 {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.rignt img {
+    transition: 1s linear;
+}
+
+.right img:hover {
+    transform: scale(1.01);
+}

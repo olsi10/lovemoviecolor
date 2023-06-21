@@ -1,0 +1,72 @@
+.img, .kor-title, .eng-title, .pub-genre {
+    position: relative;
+}
+
+.d-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.img:hover .d-img {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.kor-title img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.eng-title img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+} 
+
+.pub-genre img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.text:hover 
+.eng-title img:nth-child(2) {
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.text:hover
+.kor-title img:nth-child(2){
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+.text:hover
+.pub-genre img:nth-child(2){
+    cursor: pointer;
+    display: block;
+    animation: visible 1.5s;
+}
+
+@keyframes visible {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
