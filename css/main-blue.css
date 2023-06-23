@@ -9,10 +9,18 @@
   left: 370px;
 }
 
+.a1:hover {
+  cursor: pointer;
+}
+
 .a3 {
-  position: absolute;
-  top: -330px;
-  left: 440px;
+    position: absolute;
+    top: -332px;
+    left: 436px;
+}
+
+.a3:hover {
+  cursor: pointer;
 }
 
 /* 토글 */
