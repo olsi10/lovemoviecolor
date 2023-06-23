@@ -1,0 +1,188 @@
+.abs {
+  position: relative;
+}
+
+.a1 {
+  position: absolute;
+  visibility: visible;
+  top: -4325px;
+  left: 370px;
+}
+
+.a3 {
+  position: absolute;
+  top: -330px;
+  left: 440px;
+}
+
+/* 토글 */
+.toggle-box {
+  position: absolute;
+  top: 1253px;
+  left: 411px
+}
+
+.toggleSwitch {
+  width: 79px;
+  height: 39px;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.toggleSwitch .toggleButton {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #575757;
+}
+
+#toggle:checked ~ .toggleSwitch {
+  background: #fff;
+}
+
+#toggle:checked ~ .toggleSwitch .toggleButton {
+  left: calc(100% - 34px);
+  background: #ff4aa3;
+}
+
+.toggleSwitch, .toggleButton {
+  transition: all 0.2s ease-in;
+}
+
+/* 두번째 토글 */
+.toggle-box1 {
+position: absolute;
+    top: 1319px;
+    left: 411px;
+}
+
+.toggleSwitch1 {
+  width: 79px;
+  height: 39px;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.toggleSwitch1 .toggleButton1 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #575757;
+}
+
+#toggle1:checked ~ .toggleSwitch1 {
+  background: #fff;
+}
+
+#toggle1:checked ~ .toggleSwitch1 .toggleButton1 {
+  left: calc(100% - 34px);
+  background: #ff5959;
+}
+
+.toggleSwitch1, .toggleButton1 {
+  transition: all 0.2s ease-in;
+}
+
+/* 세번째 토글 */
+.toggle-box2 {
+    position: absolute;
+    top: 1386px;
+    left: 411px;
+}
+
+.toggleSwitch2 {
+  width: 79px;
+  height: 39px;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.toggleSwitch2 .toggleButton2 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #575757;
+}
+
+#toggle2:checked ~ .toggleSwitch2 {
+  background: #fff;
+}
+
+#toggle2:checked ~ .toggleSwitch2 .toggleButton2 {
+  left: calc(100% - 34px);
+  background: #ffd200;
+}
+
+.toggleSwitch2, .toggleButton2 {
+  transition: all 0.2s ease-in;
+}
+
+/* 네번째 토글 */
+.toggle-box3 {
+    position: absolute;
+    top: 1454px;
+    left: 411px;
+}
+
+.toggleSwitch3 {
+  width: 79px;
+  height: 39px;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.toggleSwitch3 .toggleButton3 {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #575757;
+}
+
+#toggle3:checked ~ .toggleSwitch3 {
+  background: #fff;
+}
+
+#toggle3:checked ~ .toggleSwitch3 .toggleButton3 {
+  left: calc(100% - 34px);
+  background: #131fc1;
+}
+
+.toggleSwitch3, .toggleButton3 {
+  transition: all 0.2s ease-in;
+}
